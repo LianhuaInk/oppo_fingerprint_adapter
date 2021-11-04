@@ -1,0 +1,1 @@
+# oppo_fingerprint_adapter
