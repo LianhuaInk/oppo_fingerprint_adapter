@@ -1,1 +1,2 @@
 # oppo_fingerprint_adapter
+若使用，请在manifest加入相应的代码并且设置SELinux安全上下文
