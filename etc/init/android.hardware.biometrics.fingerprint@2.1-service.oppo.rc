@@ -28,7 +28,7 @@ service oppo_fingerprints_sh /vendor/bin/sh /vendor/bin/init.oppo.fingerprints.s
     oneshot
 #ifdef VENDOR_EDIT
 #Dongnan.Wu@BSP.Fingerprint.Basic. 2018/10/26. change the seclabel to rutilsdaemon, make sure there is not limit to access dev/ proc/ path(android p)
-    seclabel u:r:rutilsdaemon:s0
+#    seclabel u:r:rutilsdaemon:s0
 #endif /*VENDOR_EDIT*/
 
 on post-fs-data
